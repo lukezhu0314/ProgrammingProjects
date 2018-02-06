@@ -1,0 +1,7 @@
+C:\Users\lukez\Desktop\Programming\ASP.NET ArcGIS\ArcGIS\ArcGIS\bin\Debug\netcoreapp1.1\ArcGIS.deps.json
+C:\Users\lukez\Desktop\Programming\ASP.NET ArcGIS\ArcGIS\ArcGIS\bin\Debug\netcoreapp1.1\ArcGIS.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\ASP.NET ArcGIS\ArcGIS\ArcGIS\bin\Debug\netcoreapp1.1\ArcGIS.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\ASP.NET ArcGIS\ArcGIS\ArcGIS\bin\Debug\netcoreapp1.1\ArcGIS.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET ArcGIS\ArcGIS\ArcGIS\obj\Debug\netcoreapp1.1\ArcGIS.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET ArcGIS\ArcGIS\ArcGIS\obj\Debug\netcoreapp1.1\ArcGIS.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET ArcGIS\ArcGIS\ArcGIS\obj\Debug\netcoreapp1.1\ArcGIS.AssemblyInfo.cs

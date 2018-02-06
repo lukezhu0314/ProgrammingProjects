@@ -1,0 +1,10 @@
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\bin\Debug\netcoreapp1.1\ContactManager.deps.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\bin\Debug\netcoreapp1.1\ContactManager.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\bin\Debug\netcoreapp1.1\ContactManager.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\bin\Debug\netcoreapp1.1\ContactManager.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\obj\Debug\netcoreapp1.1\ContactManager.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\obj\Debug\netcoreapp1.1\ContactManager.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\obj\Debug\netcoreapp1.1\ContactManager.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\bin\Debug\netcoreapp1.1\ContactManager.pdb
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\obj\Debug\netcoreapp1.1\ContactManager.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Microsoft Lab Contact Manager\Begin\ContactManager\obj\Debug\netcoreapp1.1\ContactManager.pdb

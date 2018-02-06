@@ -1,0 +1,28 @@
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.deps.json
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.runtimeconfig.json
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.runtimeconfig.dev.json
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.dll
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.pdb
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.csproj.CoreCompileInputs.cache
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.AssemblyInfo.cs
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.dll
+c:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.pdb
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.deps.json
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.runtimeconfig.json
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.runtimeconfig.dev.json
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.dll
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.pdb
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.csproj.CoreCompileInputs.cache
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.AssemblyInfo.cs
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.dll
+C:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.pdb
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.deps.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.runtimeconfig.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.runtimeconfig.dev.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.dll
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\bin\Debug\netcoreapp1.1\MongoDB_CentroidData.pdb
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.csproj.CoreCompileInputs.cache
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.AssemblyInfo.cs
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.dll
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.pdb
+c:\Users\lukez\OneDrive\Programming\MongoDB\1. MongoDB_CentroidData\obj\Debug\netcoreapp1.1\MongoDB_CentroidData.AssemblyInfoInputs.cache

@@ -1,0 +1,9 @@
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\bin\Debug\netcoreapp1.1\Delegates.deps.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\bin\Debug\netcoreapp1.1\Delegates.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\bin\Debug\netcoreapp1.1\Delegates.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\bin\Debug\netcoreapp1.1\Delegates.dll
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\bin\Debug\netcoreapp1.1\Delegates.pdb
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\obj\Debug\netcoreapp1.1\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\obj\Debug\netcoreapp1.1\Delegates.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\obj\Debug\netcoreapp1.1\Delegates.dll
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Delegates\obj\Debug\netcoreapp1.1\Delegates.pdb

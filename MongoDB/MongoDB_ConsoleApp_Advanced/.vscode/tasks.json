@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "taskName": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/MongoDB_ConsoleApp_Advanced/MongoDB_ConsoleApp_Advanced.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

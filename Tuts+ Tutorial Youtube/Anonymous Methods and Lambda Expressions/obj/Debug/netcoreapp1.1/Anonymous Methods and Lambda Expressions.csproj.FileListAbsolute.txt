@@ -1,0 +1,9 @@
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\bin\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.deps.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\bin\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\bin\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\bin\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.dll
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\bin\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.pdb
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\obj\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\obj\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\obj\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.dll
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Methods and Lambda Expressions\obj\Debug\netcoreapp1.1\Anonymous Methods and Lambda Expressions.pdb

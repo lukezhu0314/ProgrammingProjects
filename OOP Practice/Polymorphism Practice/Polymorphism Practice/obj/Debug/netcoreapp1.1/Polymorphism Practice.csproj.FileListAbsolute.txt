@@ -1,0 +1,10 @@
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\bin\Debug\netcoreapp1.1\Polymorphism Practice.deps.json
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\bin\Debug\netcoreapp1.1\Polymorphism Practice.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\bin\Debug\netcoreapp1.1\Polymorphism Practice.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\bin\Debug\netcoreapp1.1\Polymorphism Practice.dll
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\bin\Debug\netcoreapp1.1\Polymorphism Practice.pdb
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\obj\Debug\netcoreapp1.1\Polymorphism Practice.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\obj\Debug\netcoreapp1.1\Polymorphism Practice.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\obj\Debug\netcoreapp1.1\Polymorphism Practice.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\obj\Debug\netcoreapp1.1\Polymorphism Practice.dll
+C:\Users\lukez\Desktop\Programming\OOP Practice\Polymorphism Practice\Polymorphism Practice\obj\Debug\netcoreapp1.1\Polymorphism Practice.pdb

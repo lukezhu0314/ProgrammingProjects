@@ -1,0 +1,9 @@
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\bin\Debug\netcoreapp1.1\Optional Parameters.deps.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\bin\Debug\netcoreapp1.1\Optional Parameters.runtimeconfig.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\bin\Debug\netcoreapp1.1\Optional Parameters.runtimeconfig.dev.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\bin\Debug\netcoreapp1.1\Optional Parameters.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\bin\Debug\netcoreapp1.1\Optional Parameters.pdb
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\obj\Debug\netcoreapp1.1\Optional Parameters.csproj.CoreCompileInputs.cache
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\obj\Debug\netcoreapp1.1\Optional Parameters.AssemblyInfo.cs
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\obj\Debug\netcoreapp1.1\Optional Parameters.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Optional Parameters\obj\Debug\netcoreapp1.1\Optional Parameters.pdb

@@ -1,0 +1,9 @@
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\bin\Debug\netcoreapp1.1\Extension Methods.deps.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\bin\Debug\netcoreapp1.1\Extension Methods.runtimeconfig.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\bin\Debug\netcoreapp1.1\Extension Methods.runtimeconfig.dev.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\bin\Debug\netcoreapp1.1\Extension Methods.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\bin\Debug\netcoreapp1.1\Extension Methods.pdb
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\obj\Debug\netcoreapp1.1\Extension Methods.csproj.CoreCompileInputs.cache
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\obj\Debug\netcoreapp1.1\Extension Methods.AssemblyInfo.cs
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\obj\Debug\netcoreapp1.1\Extension Methods.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Extension Methods\obj\Debug\netcoreapp1.1\Extension Methods.pdb

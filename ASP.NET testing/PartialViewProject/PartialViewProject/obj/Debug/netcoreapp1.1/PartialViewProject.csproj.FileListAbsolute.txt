@@ -1,0 +1,10 @@
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\bin\Debug\netcoreapp1.1\PartialViewProject.deps.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\bin\Debug\netcoreapp1.1\PartialViewProject.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\bin\Debug\netcoreapp1.1\PartialViewProject.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\bin\Debug\netcoreapp1.1\PartialViewProject.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\obj\Debug\netcoreapp1.1\PartialViewProject.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\obj\Debug\netcoreapp1.1\PartialViewProject.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\obj\Debug\netcoreapp1.1\PartialViewProject.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\bin\Debug\netcoreapp1.1\PartialViewProject.pdb
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\obj\Debug\netcoreapp1.1\PartialViewProject.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\PartialViewProject\PartialViewProject\obj\Debug\netcoreapp1.1\PartialViewProject.pdb

@@ -1,0 +1,32 @@
+﻿
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+//Reference to JQuery
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<script>
+
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: "/api/PlottingData",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                alert("success")
+            }, //End of AJAX Success function
+            failure: function (data) {
+                alert("failure");
+            }, //End of AJAX failure function
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+                console.warn(jqXHR.responseText)
+            } //End of AJAX error function
+
+        });
+    });
+</script>
+

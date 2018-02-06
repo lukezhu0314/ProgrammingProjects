@@ -1,0 +1,7 @@
+C:\Users\lukez\Desktop\Programming\PacMan\PacMan\PacMan\bin\Debug\PacMan.exe.config
+C:\Users\lukez\Desktop\Programming\PacMan\PacMan\PacMan\bin\Debug\PacMan.exe
+C:\Users\lukez\Desktop\Programming\PacMan\PacMan\PacMan\bin\Debug\PacMan.pdb
+C:\Users\lukez\Desktop\Programming\PacMan\PacMan\PacMan\obj\Debug\PacMan.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\PacMan\PacMan\PacMan\obj\Debug\PacMan.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\PacMan\PacMan\PacMan\obj\Debug\PacMan.exe
+C:\Users\lukez\Desktop\Programming\PacMan\PacMan\PacMan\obj\Debug\PacMan.pdb

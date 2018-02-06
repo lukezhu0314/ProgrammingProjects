@@ -1,0 +1,9 @@
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\bin\Debug\netcoreapp1.1\Replicate.deps.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\bin\Debug\netcoreapp1.1\Replicate.runtimeconfig.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\bin\Debug\netcoreapp1.1\Replicate.runtimeconfig.dev.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\bin\Debug\netcoreapp1.1\Replicate.dll
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\bin\Debug\netcoreapp1.1\Replicate.pdb
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\obj\Debug\netcoreapp1.1\Replicate.csproj.CoreCompileInputs.cache
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\obj\Debug\netcoreapp1.1\Replicate.AssemblyInfo.cs
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\obj\Debug\netcoreapp1.1\Replicate.dll
+c:\Users\lukez\OneDrive\Programming\MongoDB\Replicate\obj\Debug\netcoreapp1.1\Replicate.pdb

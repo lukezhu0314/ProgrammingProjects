@@ -1,0 +1,9 @@
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\bin\Debug\netcoreapp1.1\Anonymous Types.deps.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\bin\Debug\netcoreapp1.1\Anonymous Types.runtimeconfig.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\bin\Debug\netcoreapp1.1\Anonymous Types.runtimeconfig.dev.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\bin\Debug\netcoreapp1.1\Anonymous Types.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\bin\Debug\netcoreapp1.1\Anonymous Types.pdb
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\obj\Debug\netcoreapp1.1\Anonymous Types.csproj.CoreCompileInputs.cache
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\obj\Debug\netcoreapp1.1\Anonymous Types.AssemblyInfo.cs
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\obj\Debug\netcoreapp1.1\Anonymous Types.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Anonymous Types\obj\Debug\netcoreapp1.1\Anonymous Types.pdb

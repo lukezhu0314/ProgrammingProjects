@@ -1,0 +1,56 @@
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charse=utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+      <title></title>
+      <link rel="stylesheet" href="https://js.arcgis.com/4.5/esri/css/main.css">
+      <script src="https://js.arcgis.com/4.5/"></script>
+      
+  </head>
+  <style>
+      html, body, #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  <body>
+      <div id="viewDiv"></div>
+      <script>
+          
+            require(["esri/Map", 
+            "esri/views/MapView",
+            "esri/geometry/geometryEngineAsync",
+            "esri/geometry/Polyline",
+            "esri/geometry/Polygon",
+            "esri/Graphic",
+            "esri/layers/FeatureLayer",
+            "dojo/domReady!"], 
+            function(Map, MapView, geometryEngineAsync, Polyline, Polygon, Graphic, FeatureLayer) {
+                
+                var f1 = new FeatureLayer({
+                    //This is the url for the Alberta boundary
+                    url: "https://maps.alberta.ca/genesis/rest/services/GOA_Administrative_Area/Latest/MapServer"
+                    //This is the url for the Alberta 50k grid
+                    //url: "https://services2.arcgis.com/jQV6VMr2Loovu7GU/arcgis/rest/services/Alberta_NTS_Grids/FeatureServer/1"
+                });
+
+                var map = new Map({
+                    basemap: "oceans"
+                });
+
+                map.add(f1);
+
+                var view = new MapView({
+                    container: "viewDiv",  
+                    map: map,          
+                    center: [-118, 50], 
+                    zoom: 4    
+                });
+            })
+           
+      </script>
+  </body>
+</html>

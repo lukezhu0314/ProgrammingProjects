@@ -1,0 +1,10 @@
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.deps.json
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.dll
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.pdb
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.dll
+C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp1\MongoDB_ConsoleApp1\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp1.pdb

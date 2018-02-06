@@ -1,0 +1,11 @@
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.deps.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\WebApplication1.pdb
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\WebApplication1.pdb

@@ -1,0 +1,61 @@
+@model PartialViewProject.Models.TimeConstant
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Time Parameters</h2>
+
+
+
+@using (Html.BeginForm("Index", "My", FormMethod.Post))
+{
+    <div id="divInterestDetails"></div>
+    <ol>
+        <li>
+
+        </li>
+        <li>
+            @Html.LabelFor(m => m.T_response, "Response Time")
+            @Html.EditorFor(m => m.T_response)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.T_onscene, "On Scene Time")
+            @Html.EditorFor(m => m.T_onscene)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.T_DTN_CSC, "Door to Needle Time at the Comprehensive Stroke Center")
+            @Html.EditorFor(m => m.T_DTN_CSC)
+        </li>
+        <li>
+            @Html.LabelFor(m => m.T_DTN_PSC, "Door to needle Time at the Primary Stroke Center")
+            @Html.EditorFor(m => m.T_DTN_PSC, new { @placeholder = 60 })
+        </li>
+        <li>
+            @Html.LabelFor(m => m.T_NTDO, "Needle to Door Out Time")
+            @Html.EditorFor(m => m.T_NTDO, new { @placeholder = 30 })
+        </li>
+        <li>
+            @Html.LabelFor(m => m.T_PSC_CSC, "Time away from the Primary Stroke Center to the Comprehensive Stroke Center")
+            @Html.EditorFor(m => m.T_PSC_CSC, new { @placeholder = 30 })
+        </li>
+        <li>
+            @Html.LabelFor(m => m.T_DTP_MS, "Door to Puncture Time for Mothership Approach")
+            @Html.EditorFor(m => m.T_DTP_MS, new { @placeholder = 30 })
+        </li>
+        <li>
+            @Html.LabelFor(m => m.T_DTP_DnS, "Door to Puncture Time for Drip and Ship Approach")
+            @Html.EditorFor(m => m.T_DTP_DnS, new { @placeholder = 30 })
+        </li>
+
+        @Html.ValidationSummary(false)
+    </ol>
+    <button>Calculate</button>
+}
+
+
+
+
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@

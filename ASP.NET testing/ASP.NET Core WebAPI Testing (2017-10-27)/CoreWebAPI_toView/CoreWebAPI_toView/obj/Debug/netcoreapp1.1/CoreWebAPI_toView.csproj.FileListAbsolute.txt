@@ -1,0 +1,10 @@
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\bin\Debug\netcoreapp1.1\CoreWebAPI_toView.deps.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\bin\Debug\netcoreapp1.1\CoreWebAPI_toView.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\bin\Debug\netcoreapp1.1\CoreWebAPI_toView.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\bin\Debug\netcoreapp1.1\CoreWebAPI_toView.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\obj\Debug\netcoreapp1.1\CoreWebAPI_toView.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\obj\Debug\netcoreapp1.1\CoreWebAPI_toView.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\obj\Debug\netcoreapp1.1\CoreWebAPI_toView.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\bin\Debug\netcoreapp1.1\CoreWebAPI_toView.pdb
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\obj\Debug\netcoreapp1.1\CoreWebAPI_toView.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\ASP.NET Core WebAPI Testing (2017-10-27)\CoreWebAPI_toView\CoreWebAPI_toView\obj\Debug\netcoreapp1.1\CoreWebAPI_toView.pdb

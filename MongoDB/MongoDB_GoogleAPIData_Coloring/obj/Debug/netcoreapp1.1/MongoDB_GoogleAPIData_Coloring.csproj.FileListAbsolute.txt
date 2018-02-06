@@ -1,0 +1,10 @@
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\bin\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.deps.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\bin\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.runtimeconfig.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\bin\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.runtimeconfig.dev.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\bin\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.dll
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\bin\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.pdb
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\obj\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.csproj.CoreCompileInputs.cache
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\obj\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.AssemblyInfo.cs
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\obj\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.dll
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\obj\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.pdb
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_GoogleAPIData_Coloring\obj\Debug\netcoreapp1.1\MongoDB_GoogleAPIData_Coloring.AssemblyInfoInputs.cache

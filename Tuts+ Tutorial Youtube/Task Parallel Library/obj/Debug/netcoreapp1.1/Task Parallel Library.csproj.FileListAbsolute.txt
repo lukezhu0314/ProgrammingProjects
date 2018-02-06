@@ -1,0 +1,9 @@
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\bin\Debug\netcoreapp1.1\Task Parallel Library.deps.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\bin\Debug\netcoreapp1.1\Task Parallel Library.runtimeconfig.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\bin\Debug\netcoreapp1.1\Task Parallel Library.runtimeconfig.dev.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\bin\Debug\netcoreapp1.1\Task Parallel Library.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\bin\Debug\netcoreapp1.1\Task Parallel Library.pdb
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\obj\Debug\netcoreapp1.1\Task Parallel Library.csproj.CoreCompileInputs.cache
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\obj\Debug\netcoreapp1.1\Task Parallel Library.AssemblyInfo.cs
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\obj\Debug\netcoreapp1.1\Task Parallel Library.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Task Parallel Library\obj\Debug\netcoreapp1.1\Task Parallel Library.pdb

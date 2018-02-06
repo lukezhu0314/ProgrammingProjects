@@ -1,0 +1,10 @@
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\bin\Debug\netcoreapp1.1\MVC Data Validation.deps.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\bin\Debug\netcoreapp1.1\MVC Data Validation.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\bin\Debug\netcoreapp1.1\MVC Data Validation.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\bin\Debug\netcoreapp1.1\MVC Data Validation.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\obj\Debug\netcoreapp1.1\MVC Data Validation.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\obj\Debug\netcoreapp1.1\MVC Data Validation.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\obj\Debug\netcoreapp1.1\MVC Data Validation.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\bin\Debug\netcoreapp1.1\MVC Data Validation.pdb
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\obj\Debug\netcoreapp1.1\MVC Data Validation.dll
+C:\Users\lukez\Desktop\Programming\ASP.NET testing\MVC Data Validation\MVC Data Validation\obj\Debug\netcoreapp1.1\MVC Data Validation.pdb

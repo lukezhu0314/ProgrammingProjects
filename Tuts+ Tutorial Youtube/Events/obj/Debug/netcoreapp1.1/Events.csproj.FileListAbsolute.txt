@@ -1,0 +1,9 @@
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\bin\Debug\netcoreapp1.1\Events.deps.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\bin\Debug\netcoreapp1.1\Events.runtimeconfig.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\bin\Debug\netcoreapp1.1\Events.runtimeconfig.dev.json
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\bin\Debug\netcoreapp1.1\Events.dll
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\bin\Debug\netcoreapp1.1\Events.pdb
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\obj\Debug\netcoreapp1.1\Events.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\obj\Debug\netcoreapp1.1\Events.AssemblyInfo.cs
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\obj\Debug\netcoreapp1.1\Events.dll
+C:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\Events\obj\Debug\netcoreapp1.1\Events.pdb

@@ -1,0 +1,198 @@
+@model MongoDB_GoogleAPIData_Coloring.Controllers.ArcGISController.ListofViewModels
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charse=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title></title>
+        <link rel="stylesheet" href="https://js.arcgis.com/4.5/esri/css/main.css">
+        <script src="https://js.arcgis.com/4.5/"></script>
+    </head>
+    <style>
+        html, body, #viewDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        </style>
+    <body>
+        <div id="viewDiv"><p1>Hello World</p1></div>
+        <p></p>
+    </body>
+    <script>
+        
+        require(["esri/Map", 
+        "esri/views/MapView",
+        "esri/geometry/Polyline",
+        "esri/geometry/Polygon",
+        "esri/Graphic",
+        "esri/layers/GraphicsLayer",
+        "esri/layers/FeatureLayer",
+        "dojo/domReady!"], 
+        function(Map, MapView, Polyline, Polygon, Graphic, GraphicsLayer, FeatureLayer) {
+            
+            var f1 = new FeatureLayer({
+                //This is the url for the Alberta boundary
+                url: "https://maps.alberta.ca/genesis/rest/services/GOA_Administrative_Area/Latest/MapServer"
+            });
+
+            var viewModel = @Html.Raw(Json.Serialize(Model));
+            console.log(viewModel);
+            //console.log(Model.RGBList.Values[0].Red);
+            //console.log(viewModel.rgbList.values[0]);
+            console.log(viewModel.vm[0].rgbList.values[0]);
+            console.log(viewModel.vm[1]);
+            var map = new Map({
+                basemap: "oceans"
+            });
+
+            map.add(f1);
+
+            var view = new MapView({
+                container: "viewDiv",  
+                map: map,          
+                center: [-118, 50], 
+                zoom: 4    
+            });
+
+            var myArray = [];
+
+            /*
+            foreach (var ring in Model.ringCollection)
+            {
+                :myArray.push("ring.Rings"); //don't forget the at sign in front of ring and :myArray and foreach
+            }
+            */
+
+            //alert(myArray);
+            /*
+            var ringCollection = viewModel.vm[0].ringCollection;
+            console.log(viewModel.vm[0].ringCollection);
+            var rgbValues = viewModel.vm[0].rgbList.values;
+            dataRendering(ringCollection,rgbValues);
+            */
+            var zoomedIn = true;
+            var zoomedOut = true;
+            var zoomLevelHandler = view.watch("zoom", function(zoom){
+                var ringCollection, rgbValues;
+                
+                if((zoom >= 6) && (zoomedIn == true)) {
+                    ringCollection = viewModel.vm[2].ringCollection;
+                    rgbValues = viewModel.vm[2].rgbList.values;
+                    zoomedIn = false;
+                    zoomedOut = true;
+                    var t2 = performance.now();
+                    dataRendering(ringCollection,rgbValues);
+                    var t3 = performance.now();
+                    console.log("Data Rendering Time: ", t3 - t2);
+                    /*
+                    if(oldGraphic != null) {
+                        view.graphics.remove(oldGraphic);
+                    } 
+                    view.graphics.add(newGraphic);
+                    oldGraphic = newGraphic;
+                    */
+                } else if((zoom < 6) && (zoomedOut == true)) {
+                    ringCollection = viewModel.vm[0].ringCollection;
+                    rgbValues = viewModel.vm[0].rgbList.values;
+                    zoomedOut = false;
+                    zoomedIn = true;
+                    var t4 = performance.now();
+                    dataRendering(ringCollection,rgbValues);
+                    //view.graphics.removeAll();
+                    var t5 = performance.now();
+                    console.log("Data Rendering Time: ", t5 - t4);
+                    /*
+                    if(oldGraphic != null) {
+                        view.graphics.remove(oldGraphic);
+                    }
+                    view.graphics.add(newGraphic);
+                    oldGraphic = newGraphic;
+                    */
+                }
+                console.log(zoom);
+            });
+            
+            function dataRendering(ringCollection, rgbValues) {
+                var t0 = performance.now();
+                view.graphics.removeAll();
+                var t1 = performance.now();
+                console.log("Removal Time: ", t1 - t0);
+                let i = 0;
+                let length = ringCollection.length;
+
+                setTimeout(function render(){
+                    let count = 0;
+                    if(i < 19 / 20 *length) {
+                        setTimeout(render, 0);
+                    }
+                    do{
+                        var polygon = new Polygon({
+                            hasZ: false,
+                            hasM: false,
+                            rings: ringCollection[i].rings,
+                            spatialReference: 102100
+                        });
+                        
+                        rgbCombo = rgbValues[i];
+
+                        var polygonSymbol = {
+                            type: "simple-fill",  // autocasts as new SimpleFillSymbol()
+                            color: [rgbCombo.red, rgbCombo.green, rgbCombo.blue],
+                            outline: {
+                                color: [rgbCombo.red, rgbCombo.green, rgbCombo.blue],
+                                width: "1px"
+                                },
+                            style: "solid"
+                        };  
+                        
+                        var polygonGraphic = new Graphic({
+                            geometry: polygon,
+                            symbol: polygonSymbol
+                        });
+                        view.graphics.add(polygonGraphic);
+                        i++;
+                        count++
+
+                        if(i == length) {
+                            break;
+                        }
+                    } while(count < length / 20 );
+                }, 0);
+                /*
+                for(let i = 0, l = ringCollection.length; i < l; i++) {
+                    var polygon = new Polygon({
+                        hasZ: false,
+                        hasM: false,
+                        rings: ringCollection[i].rings,
+                        spatialReference: 102100
+                    });
+
+                    //console.log(viewModel.ringCollection[i].rings);
+                    
+                    rgbCombo = rgbValues[i];
+
+                    var polygonSymbol = {
+                        type: "simple-fill",  // autocasts as new SimpleFillSymbol()
+                        color: [rgbCombo.red, rgbCombo.green, rgbCombo.blue],
+                        outline: {
+                            color: [rgbCombo.red, rgbCombo.green, rgbCombo.blue],
+                            width: "1px"
+                            },
+                        style: "solid"
+                    };  
+                    //console.log(R,G,B);
+                    
+                    var polygonGraphic = new Graphic({
+                        geometry: polygon,
+                        symbol: polygonSymbol
+                    });
+                    view.graphics.add(polygonGraphic);
+                }
+                */
+            }
+        })
+    </script>
+</html>

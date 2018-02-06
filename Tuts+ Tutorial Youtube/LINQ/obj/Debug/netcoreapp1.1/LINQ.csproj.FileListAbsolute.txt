@@ -1,0 +1,9 @@
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\bin\Debug\netcoreapp1.1\LINQ.deps.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\bin\Debug\netcoreapp1.1\LINQ.runtimeconfig.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\bin\Debug\netcoreapp1.1\LINQ.runtimeconfig.dev.json
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\bin\Debug\netcoreapp1.1\LINQ.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\bin\Debug\netcoreapp1.1\LINQ.pdb
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\obj\Debug\netcoreapp1.1\LINQ.csproj.CoreCompileInputs.cache
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\obj\Debug\netcoreapp1.1\LINQ.AssemblyInfo.cs
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\obj\Debug\netcoreapp1.1\LINQ.dll
+c:\Users\lukez\Desktop\Programming\Tuts+ Tutorial Youtube\LINQ\obj\Debug\netcoreapp1.1\LINQ.pdb

@@ -1,0 +1,120 @@
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h2>View</h2>
+
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #d3d3d3;"></canvas>
+<div id="color" style="width:200px;height:50px;float:left"></div>
+
+<script>
+    var t0 = performance.now();
+
+    /*
+    var arrRgbCode = Html.Raw(Json.Serialize(ViewBag.colorRGB));
+    var arrProbabilityMatrix = Html.Raw(Json.Serialize(ViewBag.probabilityMatrix));
+    */
+    
+    var arrRgbCode_one = @Html.Raw(Json.Serialize(ViewBag.colorRGB_one));
+    var arrRgbCode_two = @Html.Raw(Json.Serialize(ViewBag.colorRGB_two));
+    var arrRgbCode_three = @Html.Raw(Json.Serialize(ViewBag.colorRGB_three));
+
+    var arrProbabilityMatrix_one = @Html.Raw(Json.Serialize(ViewBag.probabilityMatrix_one));
+    //var arrProbabilityMatrix_two = Html.Raw(Json.Serialize(ViewBag.probabilityMatrix_two));
+    
+    var t1 = performance.now();
+    console.log(t1 - t0);
+
+    var canvas = document.getElementById("myCanvas");
+    var dataCanvas = document.getElementById("dataDisplay");
+    var ctx = canvas.getContext("2d");
+    var imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
+    var t2 = performance.now();
+
+    /*
+    for (let i = 0; i < 500; i++) {
+        for (let j = 0; j < 500; j++) {
+            imgData.data[(j + i * 500) * 4] = arrRgbCode[i][j][0];
+            imgData.data[(j + i * 500) * 4 + 1] = arrRgbCode[i][j][1];
+            imgData.data[(j + i * 500) * 4 + 2] = arrRgbCode[i][j][2];
+            imgData.data[(j + i * 500) * 4 + 3] = 255;
+        }
+    }
+    */
+    
+
+    for (let i = 0; i < 500; i++) {
+        for (let j = 0; j < 250; j++) {
+            imgData.data[(j + i * 500) * 4] = arrRgbCode_one[i][j];
+            imgData.data[((499 - j) + i * 500) * 4] = arrRgbCode_one[i][j];
+
+            imgData.data[(j + i * 500) * 4 + 1] = arrRgbCode_two[i][j];
+            imgData.data[((499 - j) + i * 500) * 4 + 1] = arrRgbCode_two[i][j];
+
+            imgData.data[(j + i * 500) * 4 + 2] = arrRgbCode_three[i][j];
+            imgData.data[((499 - j) + i * 500) * 4 + 2] = arrRgbCode_three[i][j];
+
+            imgData.data[(j + i * 500) * 4 + 3] = 255;
+            imgData.data[((499 - j) + i * 500) * 4 + 3] = 255;
+        }
+    }
+    
+    var t3 = performance.now();
+    console.log(t3 - t2);
+
+    ctx.putImageData(imgData, 0, 0);
+
+    ctx.beginPath();
+    ctx.arc(250, 250, 240, 0, 2 * Math.PI);
+    ctx.stroke();
+
+
+    var color = document.getElementById('color');
+
+    /*
+    function pick(event) {
+        var rect = canvas.getBoundingClientRect();
+        var x = Math.round((event.clientX - rect.left) / (rect.right - rect.left) * canvas.width);
+        var y = Math.round((event.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height);
+        console.log(x + ', ' + y);
+        var pixel = ctx.getImageData(x, y, 1, 1 );
+
+        var P_MS = arrProbabilityMatrix[x][y][0];
+        var P_DnS = arrProbabilityMatrix[x][y][1];
+        console.log(arrProbabilityMatrix[x][y][0]);
+
+        var data = pixel.data;
+        var rgba = 'rgba(' + data[0] + ', ' + data[1] +
+        ', ' + data[2] + ', ' + (data[3] / 255) + ')';
+        color.style.background = rgba;
+        color.textContent = P_MS;
+    }
+    */
+
+    
+    /*
+    function pick(event) {
+        var rect = canvas.getBoundingClientRect();
+        var x = Math.round((event.clientX - rect.left) / (rect.right - rect.left) * canvas.width);
+        var y = Math.round((event.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height);
+        console.log(x + ', ' + y);
+        var pixel = ctx.getImageData(x, y, 1, 1);
+
+        var P_MS = arrProbabilityMatrix_one[x][y];
+        //var P_DnS = arrProbabilityMatrix_two[x][y];
+        console.log(arrProbabilityMatrix_one[x][y]);
+
+        var data = pixel.data;
+        var rgba = 'rgba(' + data[0] + ', ' + data[1] +
+            ', ' + data[2] + ', ' + (data[3] / 255) + ')';
+        color.style.background = rgba;
+        color.textContent = P_MS;
+    }
+    */
+    
+    //
+
+    canvas.addEventListener("mousemove", pick);
+</script>

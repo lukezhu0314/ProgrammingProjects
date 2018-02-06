@@ -1,0 +1,10 @@
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\obj\Debug\netcoreapp2.0\QuICR_WebApp.csproj.CoreCompileInputs.cache
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\obj\Debug\netcoreapp2.0\QuICR_WebApp.AssemblyInfoInputs.cache
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\obj\Debug\netcoreapp2.0\QuICR_WebApp.AssemblyInfo.cs
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\bin\Debug\netcoreapp2.0\QuICR_WebApp.deps.json
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\bin\Debug\netcoreapp2.0\QuICR_WebApp.runtimeconfig.json
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\bin\Debug\netcoreapp2.0\QuICR_WebApp.runtimeconfig.dev.json
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\bin\Debug\netcoreapp2.0\QuICR_WebApp.dll
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\bin\Debug\netcoreapp2.0\QuICR_WebApp.pdb
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\obj\Debug\netcoreapp2.0\QuICR_WebApp.dll
+c:\Users\lukez\OneDrive\Programming\QuICR_WebApp\obj\Debug\netcoreapp2.0\QuICR_WebApp.pdb

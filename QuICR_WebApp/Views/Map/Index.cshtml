@@ -1,0 +1,84 @@
+@model QuICR_WebApp.Models.ViewModel
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charse=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title></title>
+        <link rel="stylesheet" href="https://js.arcgis.com/4.5/esri/css/main.css">
+        <script src="https://js.arcgis.com/4.5/"></script>
+    </head>
+    <style>
+        html, body, #viewDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        </style>
+    <body>
+        <div id="viewDiv"><p1>Hello World</p1></div>
+        <p></p>
+    </body>
+    <script>
+        require(["esri/Map", 
+        "esri/views/MapView",
+        "esri/geometry/Polyline",
+        "esri/geometry/Polygon",
+        "esri/Graphic",
+        "esri/layers/GraphicsLayer",
+        "esri/layers/FeatureLayer",
+        "dojo/domReady!"], 
+        function(Map, MapView, Polyline, Polygon, Graphic, GraphicsLayer, FeatureLayer) {
+            
+            var f1 = new FeatureLayer({
+                //This is the url for the Alberta boundary
+                url: "https://maps.alberta.ca/genesis/rest/services/GOA_Administrative_Area/Latest/MapServer"
+            });
+
+            var map = new Map({
+                basemap: "oceans"
+            });
+
+            map.add(f1);
+
+            var view = new MapView({
+                container: "viewDiv",  
+                map: map,          
+                center: [-118, 50], 
+                zoom: 4    
+            });   
+
+            var viewModel = @Html.Raw(Json.Serialize(Model));
+            var length = viewModel.fillColors.length;
+            
+            for(let i = 0; i < length; i++) {
+                var polygon = new Polygon({
+                    hasZ: false,
+                    hasM: false,
+                    rings: viewModel.polygonGeometries[i].rings,
+                    spatialReference: 102100
+                });
+                
+                rgbCombo = viewModel.fillColors[i];
+
+                var polygonSymbol = {
+                    type: "simple-fill",  // autocasts as new SimpleFillSymbol()
+                    color: [rgbCombo.red, rgbCombo.green, rgbCombo.blue],
+                    outline: {
+                        color: [rgbCombo.red, rgbCombo.green, rgbCombo.blue],
+                        width: "1px"
+                        },
+                    style: "solid"
+                };  
+                
+                var polygonGraphic = new Graphic({
+                    geometry: polygon,
+                    symbol: polygonSymbol
+                });
+                view.graphics.add(polygonGraphic);
+            }
+        })
+    </script>
+</html>

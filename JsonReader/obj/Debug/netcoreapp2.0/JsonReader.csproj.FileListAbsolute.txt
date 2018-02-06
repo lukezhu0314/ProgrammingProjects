@@ -1,0 +1,10 @@
+c:\Users\lukez\OneDrive\Programming\JsonReader\bin\Debug\netcoreapp2.0\JsonReader.deps.json
+c:\Users\lukez\OneDrive\Programming\JsonReader\bin\Debug\netcoreapp2.0\JsonReader.runtimeconfig.json
+c:\Users\lukez\OneDrive\Programming\JsonReader\bin\Debug\netcoreapp2.0\JsonReader.runtimeconfig.dev.json
+c:\Users\lukez\OneDrive\Programming\JsonReader\bin\Debug\netcoreapp2.0\JsonReader.dll
+c:\Users\lukez\OneDrive\Programming\JsonReader\bin\Debug\netcoreapp2.0\JsonReader.pdb
+c:\Users\lukez\OneDrive\Programming\JsonReader\obj\Debug\netcoreapp2.0\JsonReader.csproj.CoreCompileInputs.cache
+c:\Users\lukez\OneDrive\Programming\JsonReader\obj\Debug\netcoreapp2.0\JsonReader.AssemblyInfoInputs.cache
+c:\Users\lukez\OneDrive\Programming\JsonReader\obj\Debug\netcoreapp2.0\JsonReader.AssemblyInfo.cs
+c:\Users\lukez\OneDrive\Programming\JsonReader\obj\Debug\netcoreapp2.0\JsonReader.dll
+c:\Users\lukez\OneDrive\Programming\JsonReader\obj\Debug\netcoreapp2.0\JsonReader.pdb

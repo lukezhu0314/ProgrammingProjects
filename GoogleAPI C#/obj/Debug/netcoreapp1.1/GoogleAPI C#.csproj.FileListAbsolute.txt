@@ -1,0 +1,9 @@
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\bin\Debug\netcoreapp1.1\GoogleAPI C#.deps.json
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\bin\Debug\netcoreapp1.1\GoogleAPI C#.runtimeconfig.json
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\bin\Debug\netcoreapp1.1\GoogleAPI C#.runtimeconfig.dev.json
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\bin\Debug\netcoreapp1.1\GoogleAPI C#.dll
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\bin\Debug\netcoreapp1.1\GoogleAPI C#.pdb
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\obj\Debug\netcoreapp1.1\GoogleAPI C#.csproj.CoreCompileInputs.cache
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\obj\Debug\netcoreapp1.1\GoogleAPI C#.AssemblyInfo.cs
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\obj\Debug\netcoreapp1.1\GoogleAPI C#.dll
+c:\Users\lukez\Desktop\Programming\GoogleAPI C#\obj\Debug\netcoreapp1.1\GoogleAPI C#.pdb

@@ -1,0 +1,14 @@
+c:\users\lukez\source\repos\Euler\Euler\bin\Debug\Euler.exe.config
+c:\users\lukez\source\repos\Euler\Euler\bin\Debug\Euler.exe
+c:\users\lukez\source\repos\Euler\Euler\bin\Debug\Euler.pdb
+c:\users\lukez\source\repos\Euler\Euler\obj\Debug\Euler.csprojResolveAssemblyReference.cache
+c:\users\lukez\source\repos\Euler\Euler\obj\Debug\Euler.csproj.CoreCompileInputs.cache
+c:\users\lukez\source\repos\Euler\Euler\obj\Debug\Euler.exe
+c:\users\lukez\source\repos\Euler\Euler\obj\Debug\Euler.pdb
+C:\Users\lukez\Desktop\Programming\Euler\Euler\obj\Debug\Euler.csprojResolveAssemblyReference.cache
+C:\Users\lukez\Desktop\Programming\Euler\Euler\obj\Debug\Euler.csproj.CoreCompileInputs.cache
+C:\Users\lukez\Desktop\Programming\Euler\Euler\obj\Debug\Euler.exe
+C:\Users\lukez\Desktop\Programming\Euler\Euler\obj\Debug\Euler.pdb
+C:\Users\lukez\Desktop\Programming\Euler\Euler\bin\Debug\Euler.exe.config
+C:\Users\lukez\Desktop\Programming\Euler\Euler\bin\Debug\Euler.exe
+C:\Users\lukez\Desktop\Programming\Euler\Euler\bin\Debug\Euler.pdb
