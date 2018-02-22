@@ -30,19 +30,24 @@ namespace CodeRefactor_Test
             var databaseService = new DatabaseService();
             var hospitalTimes = databaseService.Deserializer("HospitalTimes.json");
 
+            databaseService.UpdateDocument();
+
             //for(int i = 0; i  centroids.Count / 2; i++) 
             for(int i = centroids.Count / 2; i < centroids.Count; i++)
             {
-                List<string> closestHospitals = timeService.GenerateResponseFeature(centroids[i]);
+                List<string> closestHospitals = timeService.FindClosestHospitals(centroids[i]);
                 string pscName = closestHospitals[0];
                 
-                var travelTimes = timeService.GetTravelTimes(closestHospitals, new GeoCoordinate(centroids[i].Lat, centroids[i].Long)).Result;
+                //var travelTimes = timeService.GetTravelTimes(closestHospitals, new GeoCoordinate(centroids[i].Lat, centroids[i].Long)).Result;
 
+                /*
                 foreach(var travelTime in travelTimes)
                 {
                     databaseService.InsertDocument(travelTime.Value, pscName, hospitalTimes);
                 }
+                */
             }
+
             /*
             foreach(var centroid in centroids) 
             {
@@ -73,8 +78,6 @@ namespace CodeRefactor_Test
                 //responseFeatures.Add(probService.GetProbability(travelTime));
             }
             */
-            
-            //Console.WriteLine(travelTime[1].CscTime);
         }
     }
 }

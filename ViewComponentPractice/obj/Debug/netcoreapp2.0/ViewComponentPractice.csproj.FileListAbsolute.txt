@@ -1,0 +1,10 @@
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\obj\Debug\netcoreapp2.0\ViewComponentPractice.csproj.CoreCompileInputs.cache
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\obj\Debug\netcoreapp2.0\ViewComponentPractice.AssemblyInfoInputs.cache
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\obj\Debug\netcoreapp2.0\ViewComponentPractice.AssemblyInfo.cs
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\bin\Debug\netcoreapp2.0\ViewComponentPractice.deps.json
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\bin\Debug\netcoreapp2.0\ViewComponentPractice.runtimeconfig.json
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\bin\Debug\netcoreapp2.0\ViewComponentPractice.runtimeconfig.dev.json
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\bin\Debug\netcoreapp2.0\ViewComponentPractice.dll
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\bin\Debug\netcoreapp2.0\ViewComponentPractice.pdb
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\obj\Debug\netcoreapp2.0\ViewComponentPractice.dll
+c:\Users\lukez\OneDrive\Programming\ViewComponentPractice\obj\Debug\netcoreapp2.0\ViewComponentPractice.pdb

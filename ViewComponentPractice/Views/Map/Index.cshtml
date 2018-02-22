@@ -1,0 +1,27 @@
+@{
+    Layout = null;
+}
+
+@model ViewComponentPractice.Models.Parameters 
+
+<!DOCTYPE html>
+
+<html>
+<body>
+    <div class="flex-container" style="display:flex;height:100%;width:100%">
+        <div style="height:100%;width:25%">
+            <p></p>
+            @using(@Html.BeginForm("About","Map","FormMethod.Post"))
+            {
+                @Html.DropDownListFor(m => m.SelectedScreeningTool, Model.ScreeningTools)
+                @Html.TextBoxFor(m => m.DoorInDoorOut)
+                @Html.TextBoxFor(m => m.DoortoNeedle)
+                @Html.TextBoxFor(m => m.DoortoPuncture)
+
+                <input type="submit" value="Submit" />
+            }
+        </div>
+    </div>
+</body>
+</html>
+

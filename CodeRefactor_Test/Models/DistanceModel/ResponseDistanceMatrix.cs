@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace CodeRefactor_Test.Models.DistanceModel
@@ -30,7 +31,7 @@ namespace CodeRefactor_Test.Models.DistanceModel
 
         public class Row
         {
-            public Element[] Elements { get; set; }
+            public List<Element> Elements { get; set; }
         }
     }
 }

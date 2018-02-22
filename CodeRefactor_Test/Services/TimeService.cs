@@ -33,7 +33,7 @@ namespace CodeRefactor_Test.Services
             this.pscHospitals = hospitals.Where((hospital) => hospital.type == HospitalType.PSC);
         }
 
-        public List<string> GenerateResponseFeature(Centroid centroid)
+        public List<string> FindClosestHospitals(Centroid centroid)
         {
             List<string> ClosestHospitals = new List<string>();
             
@@ -46,8 +46,8 @@ namespace CodeRefactor_Test.Services
             //find closest CSC
             var closestCSC = GetClosestHospital(originCoordinates, HospitalType.CSC);
 
-            ClosestHospitals.Add(closestPSC.name);
-            ClosestHospitals.Add(closestCSC.name);
+            ClosestHospitals.Add(closestPSC);
+            ClosestHospitals.Add(closestCSC);
 
             /*
             var closestHospitals = new ClosestHospitals()
@@ -60,13 +60,24 @@ namespace CodeRefactor_Test.Services
             return ClosestHospitals;
         }
         
+        public async Task<ResponseDistanceMatrix> GetTravelTimes(List<string>HospitalNames, GeoCoordinate point)
+        {
+            GoogleDistanceMatrixApi originToHospitalAPI = new GoogleDistanceMatrixApi(point, HospitalNames);
+            
+            // get travel times from origin to CSC and from origin to PSC
+            ResponseDistanceMatrix originToHospitalTimes = await originToHospitalAPI.GetResponse();
+
+            return originToHospitalTimes;
+        }
+
+        /*
         public async Task<Dictionary<MatrixType, ResponseDistanceMatrix>> GetTravelTimes(List<string> closestHospitals, GeoCoordinate point)
         {
-            /*
-            List<string> dnsHospitals = new List<string>();
-            dnsHospitals.Add(cscHospital.name);
-            dnsHospitals.Add(pscHospital.name);
-            */
+            
+            //List<string> dnsHospitals = new List<string>();
+            //dnsHospitals.Add(cscHospital.name);
+            //dnsHospitals.Add(pscHospital.name);
+            
 
             // get travel times for origin to CSC, origin to PSC, and PSC to CSC
             GoogleDistanceMatrixApi originToHospitalAPI = new GoogleDistanceMatrixApi(point, closestHospitals);
@@ -84,8 +95,9 @@ namespace CodeRefactor_Test.Services
                 //{ MatrixType.PSC_TO_CSC, pscToCscTimes }
             };
         }
+        */
 
-        public Hospital GetClosestHospital(GeoCoordinate point, HospitalType type)
+        public string GetClosestHospital(GeoCoordinate point, HospitalType type)
         {
             // Decide hospitals to use
             IEnumerable<Hospital> hospitals = null;
@@ -103,24 +115,26 @@ namespace CodeRefactor_Test.Services
                     throw new ArgumentException("This is not a valid hospital type");
             }
 
-            Hospital closestHospital = null;
+            string closestHospital = null;
             double closestDistance = -1;
 
             foreach (var hospital in hospitals)
             {
-                // If first, set this hospital as closest
-                if (closestHospital == null)
-                {
-                    SetClosestHospital(ref closestHospital, ref closestDistance, hospital, GetHospitalDistance(hospital, point));
-                    continue;
-                }
-
                 // Get distance of hospital from origin
                 var distance = GetHospitalDistance(hospital, point);
 
+                // If first, set this hospital as closest
+                if (closestHospital == null)
+                {
+                    closestHospital = hospital.name;
+                    closestDistance = distance;
+                    continue;
+                }
+
                 if (distance < closestDistance)
                 {
-                    SetClosestHospital(ref closestHospital, ref closestDistance, hospital, distance);
+                    closestHospital = hospital.name;
+                    closestDistance = distance;
                 }
             }
 

@@ -24,13 +24,41 @@ namespace MongoDB_ConsoleApp_Advanced
             }
             */
             
+            
+            IMongoCollection<Book> collection = ctx.Books;
+            /*
+            for(int i = 0; i < 20; i++)
+            {
+                collection.InsertOne(new Book
+                {
+                    ISBN = Math.Pow(i,2).ToString(),
+                    Title = "MongoDB for C# Developers " + i,
+                    Publisher = "Random Publisher",
+                    PageCount = i
+                });
+            }
+            */
+            
+            //Modifying contents of the database
+            /*
+            var books = collection.Find(_ => true).ToListAsync().Result;
+            foreach(var book in books)
+            {
+                var id = book.Id;
+                if(book.PageCount > 10)
+                {
+                    collection.FindOneAndUpdate(b => b.Id == id, Builders<Book>.Update.Set(b => b.PageCount, 20).Set(b => b.ISBN, "343ef789sdf"));
+                }
+            }
+            */
+
+            
+            /*
             var client = new MongoClient();
             var db = client.GetDatabase("bookStore");
             var collection = db.GetCollection<Book>("Book");
             
             var bookTitle = "MongoDB for C# Developers Edition 2";
-            Stopwatch stopWatch = new Stopwatch();
-            stopWatch.Start();
             var book = collection
                 .Find(b => b.Title == bookTitle)
                 .SortBy(b => b.Publisher)
@@ -44,7 +72,8 @@ namespace MongoDB_ConsoleApp_Advanced
             {
                 Console.WriteLine(Book.Publisher);
             }
-            Console.Read();
+            */
+            //Console.Read();
         }
     }
 
@@ -65,17 +94,16 @@ namespace MongoDB_ConsoleApp_Advanced
         {
             //This is being connected to the local server with a default port
             MongoClient client = new MongoClient();
-            //var server = client.GetServer();
             //we now create a database with a name BookStore
             this.db = client.GetDatabase("bookStore");
             //create a collection named 'Book' of type Book
-            //var collection = db.GetCollection<Book>("Book");
+            
         }
         public IMongoCollection<Book> Books
         {
             get
             {
-                return db.GetCollection<Book>("Book");
+                return db.GetCollection<Book>("BookCollection2");
             }
         }
     }

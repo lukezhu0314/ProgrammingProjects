@@ -34,7 +34,7 @@ namespace CodeRefactor_Test.Services
         private double dnsDoorToNeedle = 60;
 
         /** Drip n' Ship Needle-to-Door time (NTD) in minutes */
-        private double dnsNeedleToDoor = 60;
+        private double dnsNeedleToDoor = 20;
 
         /** Onset-to-First-Medical-Response time (OFMR) in minutes */
         private double onsetFirstMedical = 60;
@@ -53,6 +53,7 @@ namespace CodeRefactor_Test.Services
                 {
                     probability = 0,
                     method = Method.DNE.ToString(),
+                    undefined = false
                 };
                 return response;
             }

@@ -8,3 +8,14 @@ C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_C
 C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.pdb
 C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.dll
 C:\Users\lukez\Desktop\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.pdb
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.deps.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.runtimeconfig.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.runtimeconfig.dev.json
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.dll
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\bin\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.pdb
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.csprojResolveAssemblyReference.cache
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.csproj.CoreCompileInputs.cache
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.AssemblyInfoInputs.cache
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.AssemblyInfo.cs
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.dll
+c:\Users\lukez\OneDrive\Programming\MongoDB\MongoDB_ConsoleApp_Advanced\MongoDB_ConsoleApp_Advanced\obj\Debug\netcoreapp1.1\MongoDB_ConsoleApp_Advanced.pdb

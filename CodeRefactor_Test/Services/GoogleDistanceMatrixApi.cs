@@ -114,8 +114,8 @@ namespace CodeRefactor_Test.Services
             var destinationsUrl = string.Join("|", destinationAddresses.Select(WebUtility.UrlEncode));
             var departureTimeUrl = ((47 * 365 * 24 * 60 * 60) + (11 * 24 * 60 * 60) + (181 * 24 * 60 * 60) + (5 * 60 * 60) + (8 * 7 * 24 * 60 * 60)).ToString();
             string uri = $"{apiUrl}?departure_time=now&traffic_model=optimistic&origins={originsUrl}&destinations={destinationsUrl}&key={apiKey}";
-            return uri;
             //&key={apiKey}"
+            return uri;
         }
 
         private List<string> GetRequestUrlNew()
