@@ -10,24 +10,73 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="https://js.arcgis.com/4.6/"></script>
         <style>
-            html, body, #viewDiv {
+            html, body {
                 padding: 0;
                 margin: 0;
-                height: 100%;    
+                height: 100vh;    
+                
             }
+
+            #viewDiv {
+                height: 100%;
+                
+            }
+
+            #buttonGroup .btn-lg {
+                border-radius: 0;
+            }
+
+            #overwritePadding .col-md-2, #overwritePadding .col-md-10 {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+
+            .flex-container{
+                display: flex;
+            }
+
+            #navbar-list{
+                font-size: 1.2rem;
+                padding-left: 50px;
+                padding-right: 50px;
+                flex-grow: 1;
+            }
+
+            #navbar-list .nav-item {
+                flex-grow: 1;
+                text-align: center;
+            }
+            
+            #navbar-elements {
+                height: 6vh;
+            }
+            
+            #container-fluid, #form {
+                height: 94vh;
+                overflow-y: auto;
+            }
+
+            #buttonGroup {
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+            }
+
 
         </style>
     </head>
+
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar-elements">
             <a class="navbar-brand" href="#">
-                <img src="destine_logo_1.png" alt="Destine Logo"/ height=45 width=150>
+                <img src="destine_logo_1.png" alt="Destine Logo"/ height=40 width=135>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto mx-auto">
+            <div class="collapse navbar-collapse flex-container" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="navbar-list">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
                     </li>
@@ -37,7 +86,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">PacMan</a>
                     </li>
-                </ul>
+                </ul>                
                 
                 <div class="btn_toolbar">
                     <button type="button" class="btn btn-primary">Sign Up</button>
@@ -45,147 +94,152 @@
                 </div>
             </div>
         </nav>
-        <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 bg-default">
-                        <div class="rounded-1 text-black py-4 px-4 px-md-3 px-lg-4">
-                            <form class="form mb-3">
+        
+        <div class="container-fluid" id="container-fluid">
+            <div class="row" id="overwritePadding">
+                <div class="col-md-2 bg-default" id="form">
+                    <div class="rounded-1 text-black py-4 px-4 px-md-3 px-lg-4">
+                        <form class="form mb-3">
+                            <dd>
+                                <select class="form-control form-control-sm" id="province">
+                                    <option selected disabled>Location</option>
+                                    <option value="Alberta">Alberta, AB</option>
+                                    <option value="Victoria">Victoria, AU</option>
+                                </select>
+                            </dd>
+                            <dl class="form-group mt-0">
+                                <dt class="input-label">
+                                    <label class="form-label f5">Onset to First Medical Contact Time</label>
+                                </dt>
                                 <dd>
-                                    <select class="form-control" id="province">
-                                        <option selected disabled>Location</option>
-                                        <option value="Alberta">Alberta, AB</option>
-                                        <option value="Victoria">Victoria, AU</option>
-                                    </select>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control input-block" placeholder="15">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">min</span>
+                                        </div>
+                                    </div>
                                 </dd>
-                                <dl class="form-group mt-0">
-                                    <dt class="input-label">
-                                        <label class="form-label f5">Onset to First Medical Contact Time</label>
-                                    </dt>
-                                    <dd>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control input-block" placeholder="15">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">min</span>
-                                            </div>
+                            </dl>
+                            <dl class="form-group mt-0">
+                                <dt class="input-label">
+                                    <label class="form-label f5"> Ambulance Response Time</label>
+                                </dt>
+                                <dd>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control input-block" placeholder="15">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">min</span>
                                         </div>
-                                    </dd>
-                                </dl>
-                                <dl class="form-group mt-0">
-                                    <dt class="input-label">
-                                        <label class="form-label f5"> Ambulance Response Time</label>
-                                    </dt>
-                                    <dd>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control input-block" placeholder="15">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">min</span>
-                                            </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="form-group mt-0">
+                                <dt class="input-label">
+                                    <label class="form-label f5">Ambulance On Scene Time</label>
+                                </dt>
+                                <dd>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control input-block" placeholder="30">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">min</span>
                                         </div>
-                                    </dd>
-                                </dl>
-                                <dl class="form-group mt-0">
-                                    <dt class="input-label">
-                                        <label class="form-label f5">Ambulance On Scene Time</label>
-                                    </dt>
-                                    <dd>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control input-block" placeholder="30">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">min</span>
-                                            </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="form-group mt-0">
+                                <dt class="input-label">
+                                    <label class="form-label f5">Door to Needle Time at Endovascular Centre</label>
+                                </dt>
+                                <dd>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control input-block" placeholder="30">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">min</span>
                                         </div>
-                                    </dd>
-                                </dl>
-                                <dl class="form-group mt-0">
-                                    <dt class="input-label">
-                                        <label class="form-label f5">Door to Needle Time at Endovascular Centre</label>
-                                    </dt>
-                                    <dd>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control input-block" placeholder="30">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">min</span>
-                                            </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="form-group mt-0">
+                                <dt class="input-label">
+                                    <label class="form-label f5">Door to Needle Time at Thrombolysis Centre</label>
+                                </dt>
+                                <dd>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control input-block" placeholder="30">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">min</span>
                                         </div>
-                                    </dd>
-                                </dl>
-                                <dl class="form-group mt-0">
-                                    <dt class="input-label">
-                                        <label class="form-label f5">Door to Needle Time at Thrombolysis Centre</label>
-                                    </dt>
-                                    <dd>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control input-block" placeholder="30">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">min</span>
-                                            </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="form-group mt-0">
+                                <dt class="input-label">
+                                    <label class="form-label f5">Needle to Door Out Time</label>
+                                </dt>
+                                <dd>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control input-block" placeholder="60">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">min</span>
                                         </div>
-                                    </dd>
-                                </dl>
-                                <dl class="form-group mt-0">
-                                    <dt class="input-label">
-                                        <label class="form-label f5">Needle to Door Out Time</label>
-                                    </dt>
-                                    <dd>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control input-block" placeholder="60">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">min</span>
-                                            </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="form-group mt-0">
+                                <dt class="input-label">
+                                    <label class="form-label f5">Mothership Door to Puncture Time</label>
+                                </dt>
+                                <dd>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control input-block" placeholder="60">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">min</span>
                                         </div>
-                                    </dd>
-                                </dl>
-                                <dl class="form-group mt-0">
-                                    <dt class="input-label">
-                                        <label class="form-label f5">Mothership Door to Puncture Time</label>
-                                    </dt>
-                                    <dd>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control input-block" placeholder="60">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">min</span>
-                                            </div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <dl class="form-group mt-0 mb-3">
+                                <dt class="input-label">
+                                    <label class="form-label f5">Drip and Ship Door to Puncture Time</label>
+                                </dt>
+                                <dd>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control input-block" placeholder="30">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">min</span>
                                         </div>
-                                    </dd>
-                                </dl>
-                                <dl class="form-group mt-0">
-                                    <dt class="input-label">
-                                        <label class="form-label f5">Drip and Ship Door to Puncture Time</label>
-                                    </dt>
-                                    <dd>
-                                        <div class="input-group">
-                                            <input type="text" class="form-control input-block" placeholder="30">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">min</span>
-                                            </div>
-                                        </div>
-                                    </dd>
-                                </dl>
-                                <buton class="btn btn-primary btn-large f4 btn-block" type="submit">Submit</buton>
-                                <buton class="btn btn-primary btn-large f4 btn-block" type="submit">Compare</buton>
-                            </form>
-                        </div>
-                    </div>
-            
-                    <div class="col-md-9">
-                        <div id="buttonGroup" class="btn-group d-flex btn-group-toggle" data-toggle="buttons">
-                            <label class="btn btn-lg btn-secondary active w-100">
-                                <input type="radio" name="options" id="LAMS" autocomplete="off" checked> LAMS
-                            </label>
-                            <label class="btn btn-lg btn-secondary w-100">
-                                <input type="radio" name="options" id="C-STAT" autocomplete="off"> C-STAT
-                            </label>
-                            <label class="btn btn-lg btn-secondary w-100">
-                                <input type="radio" name="options" id="RACE" autocomplete="off"> RACE
-                            </label>
-                            <label class="btn btn-lg btn-secondary w-100">
-                                <input type="radio" name="options" id="ACT-FAST" autocomplete="off"> ACT-FAST
-                            </label>
-                        </div>
-                
-                        <div id="viewDiv"></div>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <buton class="btn btn-primary btn-large f4 btn-block mt-3" type="submit">Submit</buton>
+                            <buton class="btn btn-primary btn-large f4 btn-block mt-3" type="submit">Compare</buton>
+                        </form>
                     </div>
                 </div>
+        
+                <div class="col-md-10" id="mapInterface">
+                    
+                    <div id="viewDiv"></div>
+                
+                    <div id="buttonGroup">
+                            <div  class="btn-group d-flex btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-lg btn-secondary active w-100">
+                                    <input type="radio" name="options" id="LAMS" autocomplete="off" checked> LAMS
+                                </label>
+                                <label class="btn btn-lg btn-secondary w-100">
+                                    <input type="radio" name="options" id="C-STAT" autocomplete="off"> C-STAT
+                                </label>
+                                <label class="btn btn-lg btn-secondary w-100">
+                                    <input type="radio" name="options" id="RACE" autocomplete="off"> RACE
+                                </label>
+                                <label class="btn btn-lg btn-secondary w-100">
+                                    <input type="radio" name="options" id="ACT-FAST" autocomplete="off"> ACT-FAST
+                                </label>
+                            </div>
+                        </div>
+                
+                </div>
+            </div>
         </div>
         
     </body>
